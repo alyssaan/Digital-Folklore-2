@@ -32,6 +32,22 @@
     width: 100%;
   }
   
+  #page5 {
+    position: relative;
+  }
+  
+  .page5-bg {
+    width: 100%;
+  }
+  
+  #page6 {
+    position: relative;
+  }
+  
+  .page6-bg {
+    width: 100%;
+  }
+  
   .name {
     position: absolute;
     width: 22.5%;
@@ -120,12 +136,37 @@
     rotate: 3deg;
   }
   
+  .loading {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 18%;
+    left: 25%;
+  }
+  
   .end {
     position: absolute;
     top: 35%;
-    left: 36%;
+    left: 37%;
     font-family: "Lucida Handwriting", cursive;
     font-size: 40px;
+  }
+  
+  .black {
+    position: absolute;
+    width: 62%;
+    height: 56.5%;
+    top: 13%;
+    left: 19.25%;
+    background-color: black;
+  }
+  
+  .file {
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    top: 30%;
+    left: 39%;
   }
   
 </style>
@@ -161,7 +202,25 @@
 <div id="page4">
   <img class="page4-bg" src="laptop.jpeg" alt="laptop">
   
+  <img class="loading" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" alt="loading gif">
+
+  <p></p>
+</div>
+
+<div id="page5">
+  <img class="page5-bg" src="laptop.jpeg" alt="laptop">
+  
   <div class="end">
       game over.
   </div>
+  <p></p>
+</div>
+
+<div id="page6">
+  <img class="page6-bg" src="laptop.jpeg" alt="laptop">
+
+  <div class="black">
+  </div>
+  
+	<img class="file" src="file.png" alt="file">
 </div>
